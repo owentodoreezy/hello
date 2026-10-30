@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №1 - Варіант 2</title>
+</head>
+<body id="top">
+
+    <header>
+        <h1>Лабораторна робота №1: Основи побудови HTML-документів</h1>
+        <p><b>Виконав:</b> студент групи КІУКІ-24-2 <i>Варіант 2</i></p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <h2>Зміст сторінки</h2>
+        <ul>
+            <li><a href="#section1">1. Оформлений текст (Ортофосфорна кислота)</a></li>
+            <li><a href="#section2">2. Розподіл груп за спеціальностями</a></li>
+            <li><a href="#section3">3. Прогноз погоди</a></li>
+            <li><a href="#section4">4. Форма для пошуку</a></li>
+            <li><a href="#section5">5. Перехід на іншу сторінку</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section id="section1">
+            <h2>1. Оформлений текст</h2>
+            <p>
+                Хімічна реакція <b>ортофосфорної</b> кислоти:<br>
+                P<sub>2</sub>O<sub>5</sub> + 3H<sub>2</sub>O &rarr; H<sub>3</sub>PO<sub>4</sub>
+            </p>
+            <p>
+             PO<sub>4</sub><sup>3&minus;</sup>.<br>
+             <i>курсив</i>  &alpha;, &beta;, &gamma;.<br>
+              &lt;H<sub>3</sub>PO<sub>4</sub>&gt;.
+            </p>
+            <p>
+                <img src="h3po4.jpg" alt="Структурна формула ортофосфорної кислоти" width="300" height="240">
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="section2">
+            <h2>2. Дворівневий список: розподіл груп за спеціальностями</h2>
+            <ul>
+                <li><b>СП</b>
+                    <ul>
+                        <li>СП-24-1</li>
+                        <li>СП-24-2</li>
+                    </ul>
+                </li>
+                <li><b>КСМ</b>
+                    <ul>
+                        <li>КСМ-24-1</li>
+                        <li>КСМ-24-2</li>
+                    </ul>
+                </li>
+                <li><b>КІУКІ</b>
+                    <ul>
+                        <li>КІУКІ-24-1</li>
+                        <li>КІУКІ-24-2</li>
+                        <li>КІУКІу-25-1</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="section3">
+            <h2>3. таблиця: прогноз погоди</h2>
+            <table border="1">
+                <caption>Прогноз погоди на тиждень</caption>
+                <tr>
+                    <th>День</th>
+                    <th>Дата</th>
+                    <th>Вдень, &deg;C</th>
+                    <th>Вночі, &deg;C</th>
+                    <th>Опади</th>
+                </tr>
+                <tr>
+                    <td>Пт</td>
+                    <td>30.10</td>
+                    <td>+9</td>
+                    <td>+3</td>
+                    <td>Хмарно</td>
+                </tr>
+                <tr>
+                    <td>Сб</td>
+                    <td>31.10</td>
+                    <td>+8</td>
+                    <td>+2</td>
+                    <td>Невеликий дощ</td>
+                </tr>
+                <tr>
+                    <td>Нд</td>
+                    <td>01.11</td>
+                    <td>+7</td>
+                    <td>+1</td>
+                    <td>Дощ</td>
+                </tr>
+                <tr>
+                    <td>Пн</td>
+                    <td>02.11</td>
+                    <td>+6</td>
+                    <td>0</td>
+                    <td>Без опадів</td>
+                </tr>
+                <tr>
+                    <td>Вт</td>
+                    <td>03.11</td>
+                    <td>+8</td>
+                    <td>+2</td>
+                    <td>Ясно</td>
+                </tr>
+                <tr>
+                    <td>Ср</td>
+                    <td>04.11</td>
+                    <td>+10</td>
+                    <td>+4</td>
+                    <td>Хмарно</td>
+                </tr>
+                <tr>
+                    <td>Чт</td>
+                    <td>05.11</td>
+                    <td>+11</td>
+                    <td>+5</td>
+                    <td>Невеликий дощ</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="section4">
+            <h2>4. форма для пошуку</h2>
+            <form action="#" method="get">
+                <p>
+                    <label for="q">запит:</label>
+                    <input type="search" id="q" name="q" placeholder="пошук">
+                    <button type="submit">знайти</button>
+                </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="section5">
+            <h2>5. відносне гіперпосилання</h2>
+            <p><a href="about.html">перейти на сторінку &laquo;гіпер&raquo;</a></p>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p><a href="#top">повернутися до початку сторінки</a></p>
+        <p>Васін ВОлодимир, КІУКІ-24-2</p>
+    </footer>
+
+</body>
+</html>
